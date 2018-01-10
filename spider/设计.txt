@@ -1,0 +1,29 @@
+1.  数据抓取
+	
+	数据库设计
+		title                - 标题
+		price                - 价格
+		publish_date         - 发布时间
+		varieties            - 品种
+		gender               - 性别
+		age                  - 年龄
+		publisher_id         - 发布人身份
+		supply_and_demand    - 供求
+		address              - 地址
+		phone                - 手机号 
+		weChat               - 微信号
+		ancestry             - 血统
+		vaccine              - 疫苗情况
+		insect               - 驱虫情况
+		sale_number          - 待售只数
+		trading_place        - 交易地点
+		desc                 - 描述
+		picture_url          - 照片链接 是一个列表 存放多个照片的url
+		video_url            - 视频链接 应该只要一个即可
+	
+2.  存储
+	直接sql orm 
+	
+3.  浏览器模拟点击 ---> 从存储文件中取值并输入到浏览器页面中 --> 点击发布
+	看用哪种了 selenium cefpython wx pyqt5 
+	
