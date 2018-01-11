@@ -5,8 +5,8 @@ from scrapy import Selector
 # 进行数据抓取
 class MySpider():
 	def __init__(self, user=None, pwd=None):
-		self.user = '18829890053'
-		self.pwd = 'baixing0053'
+		self.user = 'xxxxxxxxxx'   # 帐号
+		self.pwd = 'xxxxxxxxxxx'   # 密码
 		self.session = requests.session()
 		self.headers = {
 			'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
